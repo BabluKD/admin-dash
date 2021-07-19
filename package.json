@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js -e js,hbs",
     "start": "node src/app.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix admi && npm run build --prefix admi"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix admin && npm run build --prefix admin"
   },
   "author": "Bablu Kumar",
   "license": "ISC",
