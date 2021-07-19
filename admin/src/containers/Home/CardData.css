@@ -1,0 +1,28 @@
+.carddata{
+display: flex;
+justify-content: space-between;
+}
+.content{
+    margin:20px ;
+}
+.topc{
+  color: gray;
+  padding-top: 10px;
+  margin-right: 90%;
+}
+.data{
+    font-size:x-large;
+}
+.icon-color{
+    color: red;
+    margin: 15px;
+}
+
+.arrow{
+    font-weight: lighter;
+    
+}
+.arrow span{
+    color: red;
+
+}
