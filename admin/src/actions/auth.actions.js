@@ -6,7 +6,7 @@ export const login = (user) => {
 
   return async (dispatch) => {
     dispatch({ type: authConstants.LOGIN_REQUEST });
-    const res = await axios.post(`/api/admin/signin`, {
+    const res = await axios.post(`/admin/signin`, {
       ...user,
     });
     console.log(res);
