@@ -1,4 +1,4 @@
-const baseUrl = process.env.API || "http://localhost:5000";
+const baseUrl = process.env.API || "https://admin-pronto.herokuapp.com";
 //const baseUrl = "http://localhost:2000";
 
 export const api = `${baseUrl}/api`;
