@@ -34,6 +34,7 @@ const Signin = (props) => {
   const dispatch = useDispatch();
 
   console.log(email, password, "hi");
+  
   const userLogin = (e) => {
     e.preventDefault();
     dispatch(login(email, password));
@@ -48,9 +49,6 @@ const Signin = (props) => {
 
   if (auth.authenticate) {
     return <Redirect to={`/`} />;
-  }
-  else {
-    console.log("Not authenticated!"+{user});
   }
 
   return (
