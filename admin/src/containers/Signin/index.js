@@ -49,6 +49,9 @@ const Signin = (props) => {
   if (auth.authenticate) {
     return <Redirect to={`/`} />;
   }
+  else {
+    console.log("Not authenticated!"+{user});
+  }
 
   return (
       <Container className="mt-5 pt-5">
